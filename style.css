@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+
+body {
+    text-align: center;
+    
+
+}
+
+/* #section {
+    height: 450px;
+    border: 2px solid black;    
+} */
+#btn {
+    height: 70px;
+    width: 240px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 40px;
+    color: rgb(103, 103, 193);
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+
+#btn:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+}
+
+#secao {
+    height: 100vh;
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(78, 47, 11);
+    font-family: 'MedievalSharp', cursive;
+
+    flex-direction: column;
+}
+
+#halfDivOne {
+    width: 100%;
+    height: 50vh;
+    font-size: 15px;
+    display: flex;
+}
+
+#halfDivTwo {
+    width: 100%;
+    /* border: 2px solid sandybrown; */
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#div {
+    /* border: 2px solid orange; */
+    border-radius: 15px;
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(48, 27, 10);
+    color: white;
+
+
+}
+
+#divTwo {
+    /* border: 2px solid green; */
+    order: 2;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 200px;
+    flex-direction: column-reverse;
+}
+
+#monsterDiv {
+    /* border: 2px solid grey; */
+    border-radius: 15px;
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background-color: rgb(48, 27, 10)
+}
+
+#divFight {
+    border-radius: 15px;
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background-color: rgb(236, 110, 7);
+    font-size: 30px;
+}
+
+#div {
+    order: 1;
+}
+
+#monsterDiv {
+    order: 3;
+}
+
+#divFight {
+    order: 2;
+}
+
+#specialAttack{
+    order: 1;
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    border: 2px solid black;
+}
+
+#info{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    border: 2px solid rgb(167, 7, 7);
+}
+
+#info {
+    order: 3;
+}
+
+#btnSpecialAttack{  
+    height: 10vh;
+    width: 10vh;
+    background-color: lightsalmon;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 700;
+    border-radius: 20px;
+}
+#btnSpecialAttack:hover{
+    background-color: white;
+    color: gold;
+    border:2px solid gold;
+}
